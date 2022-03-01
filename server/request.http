@@ -1,0 +1,32 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "jim",
+    "password": "jim"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "jim",
+    "password": "jim"
+}
+
+###
+POST http://localhost:5000/api/posts/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFkOTIxYzljYjA1MzA1ZWM5ZDg0NDEiLCJpYXQiOjE2NDYxMDUzMzF9.JpkP5LR2OA1YX6CfNuBGtEhWhRpDFgjqP5YG9N-Yowk
+
+{
+    "title": "React",
+    "description": "React",
+    "url": "google.com",
+    "status": "TO LEARN"
+}
+
+###
+GET http://localhost:5000/api/posts/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFkOTIxYzljYjA1MzA1ZWM5ZDg0NDEiLCJpYXQiOjE2NDYxMDg4NDZ9.PFAOBVr0_fJ6ZcrhoIeBg2vSHk6-8oG25lVEtNnulIo
