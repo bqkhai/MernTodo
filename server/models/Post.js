@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const PostSchema = new mongoose.Schema({
@@ -15,12 +15,12 @@ const PostSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ["TO LEARN", "LEARNING", "LEARNED"],
+        enum: ['TO LEARN', 'LEARNING', 'LEARNED'],
     },
     user: {
         type: Schema.Types.ObjectId,
-        ref: "users",
+        ref: 'users',
     },
 });
 
-export const Post = mongoose.model("posts", PostSchema);
+export const Post = mongoose.model('posts', PostSchema);

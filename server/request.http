@@ -18,7 +18,7 @@ Content-Type: application/json
 ###
 POST http://localhost:5000/api/posts/
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFkOTIxYzljYjA1MzA1ZWM5ZDg0NDEiLCJpYXQiOjE2NDYxMDUzMzF9.JpkP5LR2OA1YX6CfNuBGtEhWhRpDFgjqP5YG9N-Yowk
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjQ3Y2QyMWQ4MmQwNTY0NGFlZGY3ZWQiLCJpYXQiOjE2NDg4NzI3Mzd9.MZthbJZwhgHlsx05B5ZX8R4R8OU5LKep0KGTRbA9CJI
 
 {
     "title": "React",
@@ -29,11 +29,11 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFkO
 
 ###
 GET http://localhost:5000/api/posts/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFkOTIxYzljYjA1MzA1ZWM5ZDg0NDEiLCJpYXQiOjE2NDYxMDg4NDZ9.PFAOBVr0_fJ6ZcrhoIeBg2vSHk6-8oG25lVEtNnulIo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjQ3Y2QyMWQ4MmQwNTY0NGFlZGY3ZWQiLCJpYXQiOjE2NDg4NzI3Mzd9.MZthbJZwhgHlsx05B5ZX8R4R8OU5LKep0KGTRbA9CJI
 
 ###
 PUT http://localhost:5000/api/posts/621d938bc434b236e7535fbf
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFkOTIxYzljYjA1MzA1ZWM5ZDg0NDEiLCJpYXQiOjE2NDYxMTQ3NjN9.VGyiUEcfZs8DzhwX1ePMBnoSCzyHswnIhVnLcnhjyVE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjQ3Y2QyMWQ4MmQwNTY0NGFlZGY3ZWQiLCJpYXQiOjE2NDg4NzI3Mzd9.MZthbJZwhgHlsx05B5ZX8R4R8OU5LKep0KGTRbA9CJI
 Content-Type: application/json
 
 {
